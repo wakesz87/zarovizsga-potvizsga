@@ -6,9 +6,9 @@ public class House implements Cleanable {
     private int area;
 
 
-    public House(String address, int place) {
+    public House(String address, int area) {
         this.address = address;
-        this.area = place;
+        this.area = area;
     }
 
     @Override
