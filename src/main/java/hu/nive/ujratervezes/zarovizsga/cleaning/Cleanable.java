@@ -1,4 +1,11 @@
 package hu.nive.ujratervezes.zarovizsga.cleaning;
 
-public class Cleanable {
+public interface Cleanable {
+
+
+    public int clean();
+
+    public String getAddress();
+
 }
+
