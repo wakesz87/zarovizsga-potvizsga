@@ -3,9 +3,9 @@ package hu.nive.ujratervezes.zarovizsga.cleaning;
 public interface Cleanable {
 
 
-    public int clean();
+     int clean();
 
-    public String getAddress();
+    String getAddress();
 
 }
 
